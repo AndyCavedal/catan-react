@@ -1,0 +1,42 @@
+#contact-button {
+    color: var(--sky-blue);
+    right: 0;
+    margin-right: 30px;
+    position: absolute;
+}
+
+.navbar-list {
+    border-bottom: 1px solid var(--very-light-pink);
+    padding: 5px 20px 5px 20px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+#catan-logo {
+    width: 35px;
+    height: 35px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    margin-left: 6px;
+}
+
+.navbar-list-link {
+    font-size: var(--lg);
+    color: var(--very-light-pink);
+    text-decoration: none;
+    margin-left: 35px;
+    display: flex;
+    height: auto;
+    width: auto;
+    border-radius: 8px;
+    border: 1px solid transparent;
+    padding: 3px;
+    
+}
+
+.navbar-list-link:hover {
+    color: var(--sky-blue);
+    border: 1px solid var(--sky-blue);
+}

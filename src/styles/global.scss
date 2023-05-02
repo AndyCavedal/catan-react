@@ -1,0 +1,27 @@
+$base-color: #ff0000;
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@300&display=swap');
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --sky-blue: #4285f4;
+    --brown: #5c2018;
+    --clay-orange: #bc4639;
+    --ligth-clay: #d4a59a;
+    --petra-white: #f3e0dc;
+    --very-light-pink: #C7C7C7;
+    --sm: 14px;
+    --md: 16px;
+    --lg: 18px;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--white);
+    font-family: 'Nunito', sans-serif;
+}
