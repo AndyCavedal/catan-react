@@ -1,0 +1,19 @@
+.section1 {
+    /* Section 1 */
+
+
+    box-sizing: border-box;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -225px;
+    margin-left: -426px;
+    width: 857px;
+    height: 457px;
+
+    border: 2px solid var(--sky-blue);
+    background: #FFFFFF;
+    border-radius: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+}
